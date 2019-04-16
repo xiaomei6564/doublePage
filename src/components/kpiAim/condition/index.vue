@@ -1,14 +1,16 @@
 <template>
-    <div class="condition">
-        <header1></header1>
-        <div class="container">
-            <searh-nav></searh-nav>
-        </div>
+  <div class="condition">
+    <header1></header1>
+    <div class="container">
+      <searh-nav></searh-nav>
+      <buttons></buttons>
     </div>
+  </div>
 </template>
 <script>
 import header1 from '@/components/kpiAim/header/header.vue';
 import searhNav from '@/components/kpiAim/condition/searhNav.vue';
+import buttons from '@/components/kpiAim/condition/buttons.vue';
 export default {
   data() {
     return {
@@ -17,7 +19,8 @@ export default {
   },
   components: {
     searhNav,
-    header1
+    header1,
+    buttons
   }
 };
 </script>
