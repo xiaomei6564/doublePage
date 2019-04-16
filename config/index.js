@@ -52,7 +52,13 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {
+
+      // "/": 'http://localhost:8089/',
+      // "/": 'http://10.37.47.60:8080/', //测试服务端
+      //  "/": 'http://10.2.98.22:8088/',
+      "/": 'http://localhost:8888/',
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST

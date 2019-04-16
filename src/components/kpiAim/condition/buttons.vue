@@ -1,6 +1,6 @@
 <template>
   <div class="buttonsBox">
-    <span>
+    <span @click="add()">
       <span class="iconfont">&#xe620;</span>
       <span>新增</span>
     </span>
@@ -34,6 +34,11 @@
 export default {
   data() {
     return {};
+  },
+  methods: {
+    add() {
+      this.$emit('add');
+    }
   }
 };
 </script>
@@ -49,6 +54,13 @@ export default {
   color: #606266;
   padding: 6px 15px;
   margin-right: 15px;
+  cursor: pointer;
+}
+.buttonsBox > span:hover {
+  background: #f5f7fa;
+}
+.buttonsBox > span:active {
+  border: 1px solid #0294ff;
 }
 </style>
 

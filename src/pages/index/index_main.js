@@ -10,7 +10,7 @@ import 'common/js/axios.js';
 
 // Vue.use(Resource);
 Vue.use(ElementUI);
-
+Vue.prototype.Root = process.env.API_ROOT;//'meta-manager/'
 
 new Vue({
   el: '#app',

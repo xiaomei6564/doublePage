@@ -127,36 +127,14 @@ export default {
   td {
     font-size: 12px;
     padding-right: 10px;
+    .el-input__inner:hover {
+      background: #f5f7fa;
+    }
   }
   table {
     border-spacing: 0;
     tr:nth-child(1) td {
       padding-bottom: 15px;
-    }
-  }
-  .yqmBox {
-    font-size: 0px;
-    span {
-      font-size: 12px;
-      display: inline-block;
-      width: 28px;
-      height: 28px;
-      line-height: 28px;
-      text-align: center;
-      color: #606266;
-      border: 1px solid #dcdfe6;
-    }
-    span:nth-child(1) {
-      border-radius: 3px 0px 0px 3px;
-      border-right: 0;
-    }
-    span:nth-child(3) {
-      border-left: 0;
-      border-radius: 0px 3px 3px 0px;
-    }
-    .selSpan {
-      color: #fff;
-      background: #409eff;
     }
   }
   .quarterRateBox {
