@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <p>index</p>
     <router-view></router-view>
   </div>
 </template>
@@ -8,8 +7,6 @@
 // import main from '../../lib/main'
 import Hello from '../../components/HelloWorld';
 import 'common/css/common.css';
-import 'common/js/common.js';
-import 'common/js/axios.js';
 import 'static/font/iconfont.css';
 // import store from '../../lib/store'
 

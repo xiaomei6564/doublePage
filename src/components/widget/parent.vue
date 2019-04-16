@@ -7,27 +7,27 @@
                      :props="defaultProps"
                      v-model="selected" />
       </el-form-item>
-      <el-form-item label="inline 定义宽度：">
+      <!-- <el-form-item label="inline 定义宽度：">
         <select-tree width="200"
                      :options="options"
                      v-model="selected"
                      :props="defaultProps" />
-      </el-form-item>
+      </el-form-item> -->
     </el-form>
     <!-- 块模式 -->
-    <el-form>
+    <!-- <el-form>
       <el-form-item label="自适应：">
         <select-tree v-model="selected"
                      :options="options"
                      :props="defaultProps" />
       </el-form-item>
-    </el-form>
+    </el-form> -->
   </div>
 
 </template>
 
 <script>
-import SelectTree from '@/components/widget/SelectTree.vue';
+import SelectTree from '@/components/widget/SelectTree2.vue';
 export default {
   name: 'about',
   components: {
