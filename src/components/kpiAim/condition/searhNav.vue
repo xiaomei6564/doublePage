@@ -122,7 +122,7 @@ export default {
   background: #ffffff;
   border: 1px solid #e4e7ed;
   border-radius: 4px;
-  padding: 20px;
+  padding: 15px;
   color: #606266;
   td {
     font-size: 12px;
@@ -148,8 +148,10 @@ export default {
     }
     span:nth-child(1) {
       border-radius: 3px 0px 0px 3px;
+      border-right: 0;
     }
     span:nth-child(3) {
+      border-left: 0;
       border-radius: 0px 3px 3px 0px;
     }
     .selSpan {
